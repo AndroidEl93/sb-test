@@ -1,11 +1,16 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import Table from './Table';
+import Nav from './Nav';
+import Search from './Search';
 
 function Page() {
-	const params = useParams();
-	const paramId = params.id;
-
-	return <div>{paramId}</div>;
+	return (
+		<div className="page">
+			<Search />
+			<Table />
+			<Nav />
+		</div>
+	);
 }
 
 export default Page;
