@@ -1,6 +1,6 @@
 ## Deploy:
 
-https://sb-test.androidel.org/
+http://sb-test.androidel.org/
 
 ## Стек:
 
